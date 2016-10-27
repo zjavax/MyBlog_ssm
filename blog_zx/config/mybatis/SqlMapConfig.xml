@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+	<!-- apper映射文件里entity包别名 -->
+	<typeAliases>
+		<package name="com.entity"/>
+	</typeAliases>
+	
+	<!-- 配置mapper映射文件 -->
+	<mappers>
+		<!-- 加载 原始dao使用映射文件 -->
+		<mapper resource="sqlmap/BloggerMapper.xml"/>
+		<mapper resource="sqlmap/LinkMapper.xml"/>
+		<mapper resource="sqlmap/BlogMapper.xml"/>
+		<mapper resource="sqlmap/BlogTypeMapper.xml"/>
+	</mappers>
+</configuration>
