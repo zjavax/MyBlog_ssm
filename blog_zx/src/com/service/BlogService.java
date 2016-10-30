@@ -31,4 +31,24 @@ public interface BlogService {
 	 * @return
 	 */
 	public Long getTotal();
+	
+	/**
+	 * 根据id查找实体
+	 * @param id
+	 * @return
+	 */
+	public Blog findById(Integer id);
+	
+	/**
+	 * 更新博客信息
+	 * @param blog
+	 * @return
+	 */
+	public Integer update(Blog blog);
+	
+	public Blog getLastBlog(Integer id);
+	
+	public Blog getNextBlog(Integer id);
+	
+	
 }

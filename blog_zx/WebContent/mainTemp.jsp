@@ -7,14 +7,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/static/bootstrap3/css/bootstrap.min.css">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/static/bootstrap3/css/bootstrap-theme.min.css">
-
 <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/blog.css">
-
 <script src="${pageContext.request.contextPath}/static/bootstrap3/js/jquery-1.11.2.min.js"></script>
 <script src="${pageContext.request.contextPath}/static/bootstrap3/js/bootstrap.min.js"></script>
-
 <title>${pageTitle }-Powered by java1234</title>
-
 <style type="text/css">
 	body{
 		padding-top: 10px;
@@ -22,7 +18,6 @@
 	}
 </style>
 </head>
-
 <body>
 <div class="container">
 	<jsp:include page="/foreground/common/head.jsp"/>

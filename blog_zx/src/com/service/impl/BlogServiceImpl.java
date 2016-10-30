@@ -25,7 +25,6 @@ public class BlogServiceImpl implements BlogService{
 		return blogDao.countList();
 	}
 
-	@Override
 	public List<Blog> list(Map<String, Object> map) {
 		return blogDao.list(map);
 	}
@@ -33,5 +32,22 @@ public class BlogServiceImpl implements BlogService{
 	public Long getTotal() {
 		return blogDao.getTotal();
 	}
+	
+	public Blog findById(Integer id) {
+		return blogDao.findById(id);
+	}
+	
+	public Integer update(Blog blog) {
+		return blogDao.update(blog);
+	}
+	
+	public Blog getLastBlog(Integer id) {
+		return blogDao.findById(id-1);
+	}
 
+	public Blog getNextBlog(Integer id) {
+		return blogDao.findById(id+1);
+	}
+
+	 
 }

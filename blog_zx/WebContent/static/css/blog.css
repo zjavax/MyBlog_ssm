@@ -94,3 +94,39 @@
 	text-align: center;
 }
 
+.data_list .blog_title{
+	margin-top:20px;
+	text-align: center;
+}
+
+.data_list .blog_info{
+	text-align: center;
+}
+
+.data_list .blog_content{
+	margin-top:20px;
+	padding-bottom: 30px;
+}
+
+
+.data_list .blog_share{
+	padding-left: 330px;
+	padding-bottom: 20px;
+	padding-top: 10px
+}
+
+.data_list .blog_keyWord{
+	margin-top:20px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+}
+
+.data_list .blog_keyWord a{
+	color: black;
+	font-style: italic;
+}
+
+.data_list .blog_lastAndNextPage{
+	border-top:1px dotted black;
+	padding: 10px;
+}
